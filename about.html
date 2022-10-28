@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KOLAR ROAD HOME SHOP !! </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+
+</head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" width="150" height="80"></a>
+            <div class="nav-links" id="navlinks"> 
+                <i class="fa fa-times" onclick="HideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">OFFERS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>    
+                
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>
+            About Us
+        </h1>
+    </section>  
+   <!-- About us content -->
+
+   <section class="about_us">
+    <div class="row">
+        <div class="content-col">
+            <h1>Enabling the change, helping choose good</h1>
+            <p>Tupperware has transformed Indian homes and lives of Indian women over the last two decades. We have made choosing sustainable solutions easy and created business opportunities for women from all walks of life.
+
+                We have always led our business with a “people & planet first” approach, which has brought us continuous growth and success. Our 3 million+ strong sales force in over 80 countries makes a compelling testimony of this. 
+                
+                CHOOSING GOOD IS NOW EASIER
+                We are celebrating 25 years of creating smart & sustainable homeware products for Indian households and real opportunities for growth & career for Indian women. With over 90 exclusive stores and counting in 54 cities across India and authorized listings on leading marketplaces. Tupperware can now be easily bought anywhere in India. Yes, that means you can still buy Tupperware from your preferred direct seller or walk into an exclusive Tupperware store or buy online.
+                
+                </p>
+                <a href="" class="hero-btn red-btn">EXPLORE US</a>
+        </div>
+        <div class="content-col">
+            <img src="images/about.png" >
+        </div>
+    </div>
+   </section>
+
+    
+
+    <!-- Section -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are leading product brand in the world</p>
+        <div>
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+<script>
+    var navlinks =document.getElementById("navlinks")
+    function ShowMenu(){
+        navlinks.style.width="200px";
+        navlinks.style.right="0%";
+    }
+    function HideMenu(){
+        navlinks.style.width="0px";
+    }
+</script>    
+</body>    
+</html>
